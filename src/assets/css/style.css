@@ -1,0 +1,139 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 938px;
+}
+.swiper-pagination-bullet {
+  color: white;
+  background-color: white;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.dropdown-content {
+  top: -64px;
+  border-radius: 6px;
+}
+.select-wrapper {
+  margin-right: 94px;
+}
+.card-action a {
+  color: black;
+}
+.btn-primary {
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  background-color: black;
+  box-shadow: rgb(0, 56, 56) 0px 20px 30px -10px;
+}
+
+.btn-addToCart {
+  margin: 50px 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 2.8px;
+  color: rgba(0, 0, 0, 1);
+  width: 50%;
+  height: 40px;
+  border: none;
+  background-color: #fff;
+  outline: none;
+  cursor: pointer;
+  padding-top: 0;
+  border-radius: 40px;
+}
+
+.title-page-l {
+  letter-spacing: 1.5px;
+  font-size: 30px;
+  color: rgb(227, 227, 227);
+  text-transform: uppercase;
+}
+.title-page-m {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(227, 227, 227);
+}
+.paragraph-page {
+  font-size: 15px;
+  color: rgb(237, 237, 237);
+  line-height: 1.7em;
+  letter-spacing: 1px;
+}
+
+.card-bg-primary {
+  padding-left: 24px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom: none;
+  background: rgba(31, 31, 31, 1);
+  margin: 40px 0;
+}
+
+.checkout-card-bg {
+  padding-left: 24px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom: none;
+  background: rgba(60, 60, 60, 1);
+  margin: 40px 0;
+}
+.title-card {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  letter-spacing: 0.85px;
+}
+.title-name-card {
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 1.95px;
+  color: rgba(255, 255, 255, 1);
+  font-family: MontSerrat, sans-serif;
+  max-width: 90%;
+}
+.title-price-card {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 1);
+  font-family: MontSerrat, sans-serif;
+  letter-spacing: 1.6px;
+}
