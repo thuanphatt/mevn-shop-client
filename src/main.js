@@ -48,7 +48,7 @@ app.use(VueTidio, { appKey: "h32wbz90gk0v7tsjaanlrwslkijgfw7o" });
 router.afterEach((to) => {
   window.tidioChatApi && window.tidioChatApi.display(to.meta.showChat);
 });
-app.config.globalProperties.$apiURL = "http://localhost:3002";
+app.config.globalProperties.$apiURL = "https://mevn-shop-server.onrender.com";
 app.config.globalProperties.$STRIPE_PUBLISHABLE_KEY =
   "pk_test_51Mx3mSLqQ3c1Q8vvx4c6rkCSNcBMXVCEq9rxGLFEONXMzdN3AqLZWlke8J9KyjqUiayjpzk7Yuq18Anf7BOuyh7k00W9tDeUts";
 app.config.globalProperties.$accessTokenKey = "accessTokenKey";
